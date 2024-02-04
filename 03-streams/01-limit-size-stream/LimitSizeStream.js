@@ -22,6 +22,7 @@ class LimitSizeStream extends stream.Transform {
     } else {
       callback(null, chunk);
     }
-};
+  }
+}
 
 module.exports = LimitSizeStream;
